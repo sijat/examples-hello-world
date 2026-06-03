@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch --allow-read --allow-net --unsafely-ignore-certificate-errors main.ts"
+    "dev": "deno run --watch --allow-read --allow-net --unsafely-treat-insecure-origin-as-secure  --unsafely-ignore-certificate-errors main.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
