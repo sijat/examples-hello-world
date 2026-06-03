@@ -1,0 +1,9 @@
+{
+  "deploy": {
+    "project": "mren75-hello-world",
+    "exclude": [],
+    "include": [],
+    "entrypoint": "main.ts",
+    "args": "--unsafely-ignore-certificate-errors --allow-net"
+  }
+}
