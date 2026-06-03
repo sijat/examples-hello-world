@@ -1,15 +1,8 @@
 {
   "tasks": {
-    "dev": "deno run --watch --allow-read --allow-net --unsafely-ignore-certificate-errors main.ts"
+    "dev": "deno run --watch --allow-read --allow-net main.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
-  },
-  "deploy": {
-    "project": "mren75-hello-world",
-    "exclude": [],
-    "include": [],
-    "entrypoint": "main.ts",
-    "args": "--unsafely-ignore-certificate-errors --allow-net"
   }
 }
